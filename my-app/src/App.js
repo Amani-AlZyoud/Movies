@@ -1,5 +1,4 @@
 import './App.css';
-import { useEffect, useState } from 'react';
 import Header from './components/Header'
 import Home from './components/Home'
 import Movie from './components/Movie'
@@ -8,11 +7,7 @@ import React from 'react';
 import {  MovieProvider } from './Context/MyContext';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-function App() {
-
- 
-
-   
+function App() {   
   return (
    <>
    <BrowserRouter>
